@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.outer {
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  height: 10%;
+  width: 100%;
+  background-color: red;
+}
+.lay {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+.left1 {
+  height: 50%;
+  width: 100%;
+  background-color: yellow;
+}
+.footer {
+  height: 10%;
+  width: 100%;
+  background-color: blue;
+}

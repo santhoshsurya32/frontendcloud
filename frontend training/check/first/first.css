@@ -1,0 +1,37 @@
+table {
+  width: 25%;
+}
+table,
+th,
+td,
+tfoot {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: #c4dcf3;
+  border-left: 0px;
+  border-right: 0px;
+}
+th {
+  height: 30px;
+}
+
+tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+th,
+tfoot {
+  background-color: #427fef;
+}
+
+.sp {
+  text-align: left;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  box-shadow: 10px 10px gray;
+  border-radius: 50%;
+  margin: 20px;
+  display: inline-block;
+}

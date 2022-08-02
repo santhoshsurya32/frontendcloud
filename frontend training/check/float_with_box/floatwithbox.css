@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.box {
+  width: 100%;
+  height: 300px;
+  border-color: 1px black;
+}
+.logo {
+  display: inline;
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+.box1 {
+  width: 100%;
+  height: 45%;
+}
+.box2 {
+  width: 100%;
+  height: 45%;
+}
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}

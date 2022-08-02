@@ -1,0 +1,21 @@
+.logo {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  float: left;
+  display: inline;
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+.logo2 {
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+.box:logo {
+  height: 40%;
+}

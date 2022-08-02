@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.outer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+}
+.row {
+  height: 100%;
+  width: 33%;
+  background-color: aquamarine;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: center;
+  align-items: center; */
+}
+.I11,
+.I12,
+.I13,
+.I21,
+.I22,
+.I23,
+.I31,
+.I32,
+.I33 {
+  width: 100%;
+}
+.I11 {
+  height: 25%;
+}
+.I12 {
+  height: 50%;
+}
+.I13 {
+  height: 25%;
+}
+.I21,
+.I22,
+.I23 {
+  height: 33%;
+}
+.I31,
+.I32 {
+  height: 50%;
+}
